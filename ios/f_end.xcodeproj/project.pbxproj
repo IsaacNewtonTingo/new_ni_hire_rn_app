@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-f_end-f_endTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-f_end-f_endTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C22641713D57419380A2035C /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1917D62E86774953931DA82E /* AbrilFatface-Regular.ttf */; };
+		25F4AB2FFA4C48B59ECB59E9 /* AlfaSlabOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C6204BB5F524728AAF406A1 /* AlfaSlabOne-Regular.ttf */; };
+		84BC6077961841518D5C3BA8 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CDF026B41EA4275998ECE0C /* FredokaOne-Regular.ttf */; };
+		2310BF830497439AA2523F6A /* LuckiestGuy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22D686CE9B4946FFA160D993 /* LuckiestGuy-Regular.ttf */; };
+		D081F545730043EA8642554F /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BC8F388B8436B90C8320E /* PaytoneOne-Regular.ttf */; };
+		A154D1CF84AE4B4394959FB8 /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47D05797219B41CEBAD01948 /* TitanOne-Regular.ttf */; };
+		776584FE2A694E25949F2838 /* Ultra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C26BE7E88C3F477499310369 /* Ultra-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = f_end/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-f_end-f_endTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-f_end-f_endTests.release.xcconfig"; path = "Target Support Files/Pods-f_end-f_endTests/Pods-f_end-f_endTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1917D62E86774953931DA82E /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; name = "AbrilFatface-Regular.ttf"; path = "../src/assets/fonts/AbrilFatface-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C6204BB5F524728AAF406A1 /* AlfaSlabOne-Regular.ttf */ = {isa = PBXFileReference; name = "AlfaSlabOne-Regular.ttf"; path = "../src/assets/fonts/AlfaSlabOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CDF026B41EA4275998ECE0C /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; name = "FredokaOne-Regular.ttf"; path = "../src/assets/fonts/FredokaOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22D686CE9B4946FFA160D993 /* LuckiestGuy-Regular.ttf */ = {isa = PBXFileReference; name = "LuckiestGuy-Regular.ttf"; path = "../src/assets/fonts/LuckiestGuy-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F6BC8F388B8436B90C8320E /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; name = "PaytoneOne-Regular.ttf"; path = "../src/assets/fonts/PaytoneOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47D05797219B41CEBAD01948 /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; name = "TitanOne-Regular.ttf"; path = "../src/assets/fonts/TitanOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C26BE7E88C3F477499310369 /* Ultra-Regular.ttf */ = {isa = PBXFileReference; name = "Ultra-Regular.ttf"; path = "../src/assets/fonts/Ultra-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FE547731C09B44ED821C775B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +162,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		FE547731C09B44ED821C775B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1917D62E86774953931DA82E /* AbrilFatface-Regular.ttf */,
+				1C6204BB5F524728AAF406A1 /* AlfaSlabOne-Regular.ttf */,
+				7CDF026B41EA4275998ECE0C /* FredokaOne-Regular.ttf */,
+				22D686CE9B4946FFA160D993 /* LuckiestGuy-Regular.ttf */,
+				3F6BC8F388B8436B90C8320E /* PaytoneOne-Regular.ttf */,
+				47D05797219B41CEBAD01948 /* TitanOne-Regular.ttf */,
+				C26BE7E88C3F477499310369 /* Ultra-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +274,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C22641713D57419380A2035C /* AbrilFatface-Regular.ttf in Resources */,
+				25F4AB2FFA4C48B59ECB59E9 /* AlfaSlabOne-Regular.ttf in Resources */,
+				84BC6077961841518D5C3BA8 /* FredokaOne-Regular.ttf in Resources */,
+				2310BF830497439AA2523F6A /* LuckiestGuy-Regular.ttf in Resources */,
+				D081F545730043EA8642554F /* PaytoneOne-Regular.ttf in Resources */,
+				A154D1CF84AE4B4394959FB8 /* TitanOne-Regular.ttf in Resources */,
+				776584FE2A694E25949F2838 /* Ultra-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
