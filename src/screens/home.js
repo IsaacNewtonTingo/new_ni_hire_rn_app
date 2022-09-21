@@ -376,6 +376,7 @@ const Home = ({navigation}) => {
                     // });
                     navigation.navigate('ServiceProviderProfile', {
                       serviceProviderID: item._id,
+                      userID: item.provider._id,
                       firstName: item.provider.firstName,
                       lastName: item.provider.lastName,
                       email: item.provider.email,

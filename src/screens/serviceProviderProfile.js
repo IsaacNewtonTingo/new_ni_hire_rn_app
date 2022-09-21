@@ -70,6 +70,7 @@ export default function ServiceProviderProfile({route, navigation}) {
   const [disabled, setDisabled] = useState(false);
 
   const serviceProviderID = route.params.serviceProviderID;
+  const userID = route.params.userID;
 
   navigation.addListener('focus', () => setNewLoading(!newLoading));
 
@@ -94,7 +95,19 @@ export default function ServiceProviderProfile({route, navigation}) {
   //     })
   // }
 
-  async function getOtherServices() {}
+  async function getOtherServices() {
+    const url = process.env.GET_MY_OTHER_SERVICES;
+    const newURL = url + userID;
+
+    await axios
+      .get(newURL)
+      .then(response => {
+        setJobsList(response.data.data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }
 
   async function getReviewList() {}
 
@@ -570,7 +583,7 @@ export default function ServiceProviderProfile({route, navigation}) {
         </View>
       )} */}
 
-      {/* <View>
+      <View>
         {noData == false && (
           <View>
             <Text
@@ -596,13 +609,13 @@ export default function ServiceProviderProfile({route, navigation}) {
                 })
               }
               style={styles.jobTitleContainer}
-              key={item.id}>
+              key={item._id}>
               <Text
                 style={{
                   fontWeight: '700',
                   color: 'white',
                 }}>
-                {item.jobTitle}
+                {item.service.serviceName}
               </Text>
 
               <FontAwesome name="location-arrow" size={15} color="gray" />
@@ -616,7 +629,7 @@ export default function ServiceProviderProfile({route, navigation}) {
             />
           </>
         ))}
-      </View> */}
+      </View>
 
       {/* {currentUserID == userId && (
         <View style={styles.payAndDeleteContainer}>
